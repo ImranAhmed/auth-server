@@ -2,19 +2,19 @@
 
 Store user name and password (salt + hash) in mongodb.
 
-1.Install mongodb: https://docs.mongodb.com/manual/installation/
+1. Install mongodb: https://docs.mongodb.com/manual/installation/
 
-2.Install a query tool for mongodb eg. https://robomongo.org/ (note latest version will be a paid version, older versions are free)
+2. Install a query tool for mongodb eg. https://robomongo.org/ (note latest version will be a paid version, older versions are free)
 
-3.Create a local file in root for storing a secret key for encryption (config.js) in following format. **Do not checkin this file with source code**
+3. Create a local file in root for storing a secret key for encryption (config.js) in following format. **Do not checkin this file with source code**
 
 module.exports = { 
     secret: 'add a secret here'
 }
 
-4.npm install
+4. npm install
 
-5.npm run dev
+5. npm run dev
 
 Test in postman
 
