@@ -8,8 +8,7 @@ Store user name and password (salt + hash) in mongodb.
 
 - Create a local file in root for storing a secret key for encryption (config.js) in following format. 
 **Do not checkin this file with source code**
-
-module.exports = { 
+eg. module.exports = { 
     secret: 'add a secret here'
 }
 
@@ -19,7 +18,7 @@ module.exports = {
 
 - Test in postman
 
-Signin endpoint http://localhost:3090/signup
+Signup endpoint http://localhost:3090/signup
 
 eg. body
 
